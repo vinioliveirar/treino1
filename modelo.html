@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Treinando #1</h1>
+    </header>
+    <section>
+        <form action="#" method="post">
+            <fieldset>
+                <fieldset class="grupo">
+                    <!-- fieldset (grupo de campos) para agrupar campos do formulário-->
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="txtnome" id="txtnome">
+                    </div>
+                    <div class="campo">
+                        <label for="snome">Sobrenome</label>
+                        <input type="text" name="txtsnome" id="txtsnome">
+                    </div>
+                </fieldset>
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="nascionalidade">País de Nascimento</label>
+                        <input type="text" name="txtpais" id="txtpais" value="">
+                    </div>
+                </fieldset>
+                <div class="campo">
+                    <label>Sexo</label>
+                    <label>
+                        <input type="radio" name="radsex" id="masc" checked>Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="radsex" id="fem">Feminino
+                    </label>
+                </div>
+                <!--Botão verificar-->
+                <input type="button" value="Verificar" onclick="Verificar()" id="btn">
+
+            </fieldset>
+            
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Testando</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
